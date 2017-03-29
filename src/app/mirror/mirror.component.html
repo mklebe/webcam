@@ -1,0 +1,12 @@
+<video #video width="640" height="480" autoplay></video>
+
+<h2>Printing out the Devices</h2>
+<h3>Camera</h3>
+<p *ngFor="let device of cameras">
+  {{ device | json }}
+</p>
+<h3>Speaker</h3>
+<p *ngFor="let device of speaker">
+  {{ device | json }}
+</p>
+
